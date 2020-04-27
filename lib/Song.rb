@@ -60,7 +60,7 @@ class Song
      artist=Artist.find_or_create_by_name(part[0])
      make_from_files =self.new(name,artist,genre)
      make_from_files
-     
+  
   end 
   
   
